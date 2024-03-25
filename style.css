@@ -1,8 +1,135 @@
-body {
-    font-family: "staatlich", sans-serif;
+body
+{
+    font-family: "source sans 3";
 }
-
 /* navigation */
 nav {
-    background-color:blue;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 10%;
+}
+
+#main-menu {
+    display: flex;
+    gap: 30px;
+}
+
+#main-menu li{
+    list-style:none;
+}
+
+.logo {
+    color: #0C2D57;
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-family: "staatliches";
+}
+
+#main-menu button, #main-menu a {
+    background-color: transparent;
+    font-family: "khand";
+    font-size: 16px;
+    font-style: bold;
+    color: #0C2D57;
+    font-weight: bold;
+    border-width: 3px;
+    border-color: #0C2D57;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* dropdown */
+#main-menu .dropdown {
+    background-color: white;
+    color: #0C2D57;
+    border-color: #0C2D57;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10%;
+    margin: 0px;
+    padding: 20px;
+    position: absolute;
+    display: none;
+}
+
+#main-menu .dropdown a {
+    color: #0C2D57;
+}
+
+#main-menu .sub-menu:hover .dropdown {
+    display: block;
+}
+
+/* Search */
+
+.search {
+    font-family: "source sans 3";
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #D9D9D9;
+    color: #028391;
+    padding: 10% auto;
+    gap: 50px;
+    height: 40px;
+    width: 48%;
+    margin: 30px auto;
+    align-items: center;
+}
+
+/* New Additions */
+#new-additions {
+    font-family: "staatliches";
+    color: #FF8080;
+    font-size: 18px;
+    font-weight: 50;
+    margin: 20px 10%;
+}
+
+
+/* Content Cards */
+
+.card {
+     background-color: gray;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0px;
+     padding:20px 10%;
+ }
+.card {
+    display: grid, flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 280px; width: 100px;
+    gap: 10px;
+    margin: 30px auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.content-card1 {
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+.content-card2 {
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+
+.content-card3 {
+    grid-column: 3 / 4;
+    grid-row: 1;
+}
+
+.content-card4 {
+    grid-column: 4 / 4;
+    grid-row: 1;
 }
