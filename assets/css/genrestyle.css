@@ -1,0 +1,126 @@
+body
+{
+    font-family: "source sans 3";
+    margin: 0;
+}
+/* navigation */
+nav {
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    padding:5px 5%;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+#nav-icon {
+    align-items: baseline;
+    display: flex;
+    justify-items: end;
+
+}
+
+.account {
+    width: 32px;
+    height:30px;
+}
+
+.cart {
+    width:38px;
+    height:38px;
+}
+
+#main-menu {
+    display: flex;
+    gap: 30px;
+}
+
+#main-menu li{
+    list-style:none;
+}
+
+#URBANVINYLS {
+    color: #0C2D57;
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-family: "staatliches";
+    background-color: transparent;
+    border: none;
+}
+
+#main-menu button, #main-menu a {
+    background-color: transparent;
+    font-family: "khand";
+    font-size: 16px;
+    font-style:normal;
+    color: #0C2D57;
+    font-weight:bolder;
+    border-width: 2px;
+    border-color: #0C2D57;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* dropdown */
+#main-menu .dropdown {
+    background-color: white;
+    color: #0C2D57;
+    border-color: #0C2D57;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10%;
+    margin: 0px;
+    padding: 20px;
+    position: absolute;
+    display: none;
+}
+
+#main-menu .dropdown a {
+    color: #0C2D57;
+}
+
+#main-menu .sub-menu:hover .dropdown {
+    display: block;
+}
+#main-menu #products {
+    background-color: #E5E4E4;
+    color: #028391;
+}
+
+#linebreak{
+    background-color: #0C2D57;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    height: 2px;
+}
+
+/* Shop by Genre */
+#shop-by-genre {
+    background-color: #E5E4E4;
+    font-family: "staatliches";
+    color: #FF8080;
+    font-size: 18px;
+    font-weight: 50;
+    margin: 0;
+    text-align: center;
+}
+
+.genre-title {
+    margin-top: 3px
+}
+
+#genres {
+    font-family: "source sans 3";
+    font-weight: 600;
+    color: #028391;
+
+
+}
+
+#genre-pics {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 20px 10%;
+}
