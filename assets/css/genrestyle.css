@@ -1,3 +1,7 @@
+* {
+    margin:0;
+}
+
 body
 {
     font-family: "source sans 3";
@@ -5,11 +9,11 @@ body
 }
 /* navigation */
 nav {
+    width: 100%;
     background-color:white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding:5px 5%;
-    justify-content: flex-start;
     align-items: baseline;
 }
 
@@ -28,6 +32,7 @@ nav {
 .cart {
     width:38px;
     height:38px;
+    justify-self: end;
 }
 
 #main-menu {
@@ -90,17 +95,18 @@ nav {
 
 #linebreak{
     background-color: #0C2D57;
-    margin-top: 3px;
-    margin-bottom: 0px;
-    height: 2px;
+    margin: 0;
+    height: 4px;
 }
+
+
 
 /* Shop by Genre */
 #shop-by-genre {
     background-color: #E5E4E4;
     font-family: "staatliches";
     color: #FF8080;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 50;
     margin: 0;
     text-align: center;
@@ -114,13 +120,12 @@ nav {
     font-family: "source sans 3";
     font-weight: 600;
     color: #028391;
-
-
 }
 
-#genre-pics {
+.genre-pics {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    margin: 20px 10%;
+    margin: 20px 10% 0px;
+    gap: 10px;
+    justify-content: space-around;
 }

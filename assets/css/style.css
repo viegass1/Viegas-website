@@ -41,7 +41,6 @@ nav {
     border-color: #0C2D57;
     border-radius: 20px;
     text-decoration: none;
-   
 }
 
 /* dropdown */
@@ -96,6 +95,14 @@ color:#028391;
 font-family: "source sans 3";
 
 }
+
+.searchbox::placeholder {
+    color:#028391;
+    font-family: "source sans 3";
+    border:none;
+}
+
+
 
 #searchpic {
     opacity: 80%;
