@@ -13,50 +13,79 @@
         <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <meta name=”viewport” content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/acc.css">
-        <link rel="icon" type="image/x-icon" href="assets/TaylorSwift1989Taylor_sVersionLP.webp">
-    </head>
+        <link rel="icon" type="image/x-icon" href="assets/bestseller.pngs/TaylorSwift1989Taylor_sVersionLP.webp">    </head>
     <body>
-        <nav>
-            <span class="logo"><a href="index.html"><button id="URBANVINYLS">URBAN VINYLS</button></span>
-            <menu id="main-menu">
-                <li class="sub-menu">
-                    <button id="about-us">ABOUT US</button>
-                    <menu class="dropdown">
+        <nav> 
+            <div id="span-menu">
+            <span class="logo">
+                <a href="index.html" id="URBANVINYLS">URBAN VINYLS</a>               
+            </span>
+            <button id="mobile-menu-button">
+                <img id="mobile-menu-icon" src="assets/index/menu.svg" >
+                <br>
+                <span id="mobile-menu-text">MENU</span>
+            </button>
+            <menu id="main-menu" class="display-none-mobile display-flex">
+                <li class="dropdown-trigger">
+                    <button>ABOUT US</button>
+                    <menu class="dropdown-menu">
                         <li><a href="">Our Story</a></li>
-                        <li><a href="">Our Mission</a></li>
+                        <li><a href="">Our Mission </a></li>
                     </menu>
                 </li>
-                <li class="sub-menu">
-                    <button id="products">PRODUCTS</button>
-                    <menu class="dropdown">
+                <li class="dropdown-trigger">
+                    <button>PRODUCTS</button>
+                    <menu class="dropdown-menu">
                         <li><a href="genre.html">Shop by Genre</a></li>
-                        <li><a href="">Bestsellers</a> </li>
+                        <li><a href="">Bestsellers</a></li>
                         <li><a href="">Featured Artists</a></li>
-                 </menu>    
-                </li>
-                <li class="sub-menu">
-                    <button id="account">ACCOUNT</button>
-                    <menu class="dropdown">
-                        <li><a href="">Orders</a></li>
-                        <li><a href="">Gift Cards</a></li>
-                        <li><a href="">Saved Addresses</a></li>
-                        <li><a href="">Password</a></li>
-                        <li><a href="">Payment Methods</a></li>
                     </menu>
+                </li>
+                <li>
+                    <button>OTHER</button>
                 </li>
             </menu>
-            <div>
-                <a href="acc.html" class="account"><img id="nav-icon"  src="assets/genre.pngs/Vector.png"></a>
-                <img id="nav-icon" class="cart" src="assets/genre.pngs/shoppingcart.png">
+            </div>
+            <div id="nav-icon">
+                <a href="acc.html" class="account"><img src="assets/genre.pngs/Vector.png"></a>
+                <img class="cart" src="assets/genre.pngs/shoppingcart.png">
             </div>
         </nav>
         <hr id="linebreak">
         <section id="account-settings">
             <h2 class="title">Account</h2>
+            <div id="account-buttons">
+                <button class="square profile-square">PROFILE <img src="assets/acc.pngs/profile.png"></button>
+                <button class="square orders-square">ORDERS<img src="assets/acc.pngs/cart.png"></button>
+                <button class="square giftcards-square">GIFTCARDS<img src="assets/acc.pngs/card.png"></button>
+                <button class="square payment-square">PAYMENT METHODS<img src="assets/acc.pngs/payment.png"></button>
+                <button class="square password-square">PASSWORD<img src="assets/acc.pngs/password.png"></button>
+                <button class="square addresses-square">SAVED ADDRESSES<img src="assets/acc.pngs/addresses.png"></button>
+            </div>
 
         </section>
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-        <script src="assets/script.js"></script>
+        <script src="assets/index.js"></script>
+         <!-- Jquery -->
+         <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+
     </body>
 
 
