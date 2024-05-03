@@ -145,6 +145,9 @@ span.logo a {
   text-decoration: none;
  }
 
+ #mobile-menu-button {
+    border: transparent;
+ }
 
  .display-flex {
     display: flex;
@@ -154,10 +157,7 @@ span.logo a {
  .dropdown-menu {
   background-color: white;
   color: #0C2D57;
-  border-color: #0C2D57;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 10%;
+  border-color: transparent;
   margin: 0px;
   padding: 20px;
   position: absolute;
@@ -176,7 +176,8 @@ span.logo a {
 
  @media (max-width:800px) {
     #mobile-menu-button {
-        display:block;
+        display:block; 
+        order: 2;
     }
     .display-none-mobile{
         display:none;
