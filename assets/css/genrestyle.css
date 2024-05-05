@@ -191,6 +191,11 @@ span.logo a {
    #main-menu {
      flex-direction: column;
      width: 100%;
+     position: absolute;
+     background: white;
+     top: 60px;
+     padding: 30px;
+     width: max-content;
    }
 
    .dropdown-menu {
@@ -198,7 +203,12 @@ span.logo a {
      position: relative;
    }
  }
+
+
  
+#linebreak {
+    margin:0;
+}
 /* Shop by Genre */
 h2 {
     margin: 0;

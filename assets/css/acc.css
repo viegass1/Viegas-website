@@ -191,6 +191,11 @@ span.logo a {
    #main-menu {
      flex-direction: column;
      width: 100%;
+     position: absolute;
+     background: white;
+     top: 60px;
+     padding: 30px;
+     width: max-content;
    }
 
    .dropdown-menu {
@@ -199,7 +204,9 @@ span.logo a {
    }
  }
 
- 
+#linebreak {
+    margin:0;
+}
 /* Account */
 #account-settings {
     background-color:#E5E4E4;
