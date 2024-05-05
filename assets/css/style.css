@@ -5,16 +5,18 @@ body
 }
 /* navigation */
 nav {
-    width: 100%;
+    width: 90%;
     background-color:white;
     display: flex;
     padding-top: 8px;
     padding-bottom: 8px;
+    margin:auto;
 }
 
 #nav-icon {
     display: flex;
-    justify-content: space-around;
+    flex:2;
+    justify-content: end;
     align-items: center;
     gap: 20px;
     justify-self: end;
@@ -117,7 +119,7 @@ a:hover,button:hover {
 }
 
 nav {
-    width: 100%;
+    width: 90%;
     background-color:white;
     display: flex;
     justify-content: space-around;
@@ -181,6 +183,10 @@ span.logo a {
     .display-none-mobile{
         display:none;
    } 
+
+   #span-menu {
+    order: 2;
+   }
 
    #main-menu {
      flex-direction: column;

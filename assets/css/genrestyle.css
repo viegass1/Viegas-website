@@ -5,19 +5,21 @@ body
 }
 /* navigation */
 nav {
-    width: 100%;
+    width: 90%;
     background-color:white;
     display: flex;
-    justify-content: space-around;
     padding-top: 8px;
     padding-bottom: 8px;
+    margin:auto;
 }
 
 #nav-icon {
     display: flex;
-    justify-content: space-around;
+    flex:2;
+    justify-content: end;
     align-items: center;
     gap: 20px;
+    justify-self: end;
 }
 
 #nav-icon:hover {
@@ -39,10 +41,15 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    justify-self: start;
 }
 
 #main-menu li{
     list-style:none;
+}
+
+.logo {
+    justify-self: start;
 }
 
 #URBANVINYLS {
@@ -53,6 +60,7 @@ nav {
     font-family: "staatliches";
     background-color: transparent;
     border: none;
+
 }
 
 #main-menu button, #main-menu a {
@@ -92,14 +100,7 @@ nav {
 
 /* mobile media */
 
-nav {
-    width: 100%;
-    background-color:white;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
+
 
 li {
     list-style:none;
@@ -118,7 +119,7 @@ a:hover,button:hover {
 }
 
 nav {
-    width: 100%;
+    width: 90%;
     background-color:white;
     display: flex;
     justify-content: space-around;
@@ -176,11 +177,16 @@ span.logo a {
 
  @media (max-width:800px) {
     #mobile-menu-button {
-        display:block;
+        display:block; 
+        order: 2;
     }
     .display-none-mobile{
         display:none;
    } 
+
+   #span-menu {
+    order: 2;
+   }
 
    #main-menu {
      flex-direction: column;
@@ -192,19 +198,7 @@ span.logo a {
      position: relative;
    }
  }
-#main-menu #products {
-    background-color: #E5E4E4;
-    color: #028391;
-}
-
-#linebreak{
-    background-color: #0C2D57;
-    margin: 0;
-    height: 4px;
-}
-
-
-
+ 
 /* Shop by Genre */
 h2 {
     margin: 0;
